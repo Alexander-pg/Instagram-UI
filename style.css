@@ -1,0 +1,224 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opa{
+    opacity: 0.5;
+}
+
+.navBar{
+    display: flex;
+    width:100%;
+    
+    
+}
+
+.navBar .elements{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 10px;
+}
+
+.elements .userName{
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap:10px;
+    flex-grow:5;
+    cursor: pointer;
+}
+
+.elements .userName img{
+    width: 15px;
+}
+
+.iconitos{
+    display: flex;
+    justify-content: end;
+    flex-grow: 5;
+    gap: 20px;
+
+}
+
+.iconitos img{
+    width:30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+
+.userInfo{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.userInfo .userimg{
+    display: flex;
+    border-radius: 50%;
+    width: 80px;
+    margin: 20px;
+    background-color: white;
+    align-items: center;
+    flex-grow:2;
+}
+
+.userInfo .userimg img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.accountInfo{
+    display: flex;
+    flex-grow: 5;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    gap: 10%;
+    
+}
+
+.accountInfo div{
+    text-align: center;
+    margin: 20px;
+}
+
+.userDescription{
+    margin-right: 15px;
+    padding: 10px;
+    
+}
+
+.editing-options{
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.editing-options .edit-button{
+    display: flex;
+    width: 90%;
+    margin-left: 10px;
+    background-color:rgba(214, 214, 214, 0.76);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.editing-options .edit-button input{
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.editing-options .discoverPeopleIcon{
+    
+    justify-content: center;
+    display: flex;
+    background-color:rgba(214, 214, 214, 0.76);
+    width: 8%;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+}
+
+
+.nohamburger-pressed{
+    display: none;
+}
+
+.hamburger-pressed{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 420px;
+    opacity: 1;
+    margin-top: 230px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.hamburger-options{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.hamburger-options div{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 60px;
+    gap: 30px;
+    cursor: pointer;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.hamburger-options div img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+.watchProfiles{
+    margin-top: 10px;
+    display: flex;
+    overflow-x: auto;
+    margin-bottom: 10px;
+}
+
+.watchProfiles .card{
+    display: flex;
+    min-width: 200px;
+    margin: 10px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    justify-content: center;
+    border: 1px solid rgb(219, 214, 214);
+}
+
+.watchProfiles .card div{
+    display: flex;
+    margin: 8px;
+    width: 100%;
+    justify-content: center;
+}
+
+.watchProfiles img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.watchProfiles input{
+    width: 80%;
+    height: 30px;
+    background-color: rgb(36, 36, 216);
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+
+
